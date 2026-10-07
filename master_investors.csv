@@ -1,0 +1,5 @@
+investor_id,legal_name,investor_type,kyc_status,contact_email
+INV-1001,Blackstone Alpha Corp,Institutional,VERIFIED,ops@blackstone.com
+INV-1002,Apex Global Holdings,Institutional,VERIFIED,settlements@apex.com
+INV-1003,Vanguard Offshore Fund,Institutional,VERIFIED,admin@vanguard.com
+INV-1004,Meridian Capital Partners,High-Net-Worth,VERIFIED,ir@meridian.com
