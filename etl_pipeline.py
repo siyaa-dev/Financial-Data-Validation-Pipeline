@@ -302,7 +302,7 @@ if __name__ == "__main__":
   db_credentials = {
       "host": "localhost",
       "user": "root",
-      "password": "12345678",  # Update with local password
+      "password": "your_password",  # Update with local password
       "database": "financial_ledger_db",
   }
 
