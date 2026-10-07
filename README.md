@@ -21,7 +21,7 @@ An institutional-grade ETL data validation and reconciliation pipeline designed 
                                   │
                                   ▼
 ┌──────────────────────────────────────────────────────────────────┐
-│              2. Business Rule & Referential Validator             │
+│              2. Business Rule & Referential Validator            │
 │  - Foreign Key Check: Investor exists & KYC status is VERIFIED   │
 │  - Foreign Key Check: Fund code exists and is ACTIVE             │
 │  - Boundary Check: Amount > 0 (flags negative redemption values) │
@@ -33,10 +33,10 @@ An institutional-grade ETL data validation and reconciliation pipeline designed 
                  │                                  │
                  ▼                                  ▼
 ┌─────────────────────────────────┐  ┌─────────────────────────────┐
-│    3. Clean Transaction Ledger   │  │   4. Exception Audit Store  │
-│      - Units allocated via NAV   │  │   - Error code tagged       │
-│      - Committed to MySQL        │  │   - JSON payload preserved  │
-│      - Clean CSV ledger export   │  │   - Exception log CSV export│
+│    3. Clean Transaction Ledger  │  │   4. Exception Audit Store  │
+│      - Units allocated via NAV  │  │   - Error code tagged       │
+│      - Committed to MySQL       │  │   - JSON payload preserved  │
+│      - Clean CSV ledger export  │  │   - Exception log CSV export│
 └─────────────────────────────────┘  └─────────────────────────────┘
                  │                                  │
                  └────────────────┬─────────────────┘
